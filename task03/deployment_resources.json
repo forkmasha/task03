@@ -42,7 +42,6 @@
       "/hello": {
         "enable_cors": false,
         "GET": {
-          "enable_proxy": true,
           "authorization_type": "NONE",
           "integration_type": "lambda",
           "lambda_name": "hello_world",
@@ -52,7 +51,7 @@
           "responses": [],
           "integration_responses": [],
           "default_error_pattern": true,
-
+          "enable_proxy": true
         }
       }
     },
